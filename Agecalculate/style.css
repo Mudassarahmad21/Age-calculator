@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 90%;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 500px;
+    height: 390px;
+    background-color: snow;
+    border: 2px solid black;
+    padding: 40px 30px;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.container p {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container input {
+    width: 180px;
+    padding: 10px;
+    background-color: white;
+    outline: none;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+
+.container button {
+    width: 120px;
+    background-color: red;
+    color: whitesmoke;
+    padding: 10px 15px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.container button:hover {
+    background-color: whitesmoke;
+    color: red;
+    border: 2px dotted red;
+}
+#currentAge{
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
